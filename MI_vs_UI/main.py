@@ -192,7 +192,7 @@ def mivsui(dat, trueMI, trueUI, reps=50, trials=[10, 100, 500, 1000, 5000], epsi
     out_A["MI"] = out_AMI
     out_A["UI"] = out_AUI
     out_B.to_csv("BMI.csv")
-    out_B.to_csv("Age.csv")
+    out_A.to_csv("Age.csv")
     return ([out_AUI, out_BUI], [out_AMI, out_BMI])
 
 
